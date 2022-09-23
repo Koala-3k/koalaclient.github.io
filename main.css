@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+h1 {
+    text-align: center;
+    backdrop-filter: black;
+    vertical-align: middle;
+    font-family:"Tapestry";
+    margin-top: 250px;
+    color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Readex Pro";
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: fadeInAnimation ease-in 3s
+}
+@keyframes fadeInAnimation{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.youtube {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    -webkit-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    transform: translateX(-20%);
+    background-color:black;
+    background-position: 0;
+}
